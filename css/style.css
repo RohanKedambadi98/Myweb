@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+
+  font-size: 0.625em;
+}
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 0.1rem;
+  text-align: center;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 0.1rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 6rem;
+  width: 50px;
+  width: 6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover, .icon-31:hover, .icon-32:hover {
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+
+
+
+.icon-10 {
+  color: #26d926;
+  fill: #294BF8  ;
+}
+.icon-10:hover {
+    fill: white;
+  background: #294BF8  ;
+}
+
+
+.icon-13 {
+  color: #26d991;
+  fill: #2C3E50;
+}
+.icon-13:hover {
+  fill:#2C3E50;
+  background: white;
+}
+
+.icon-15 {
+  color: #26d9d9;
+  fill: #F60AE0;
+}
+.icon-15:hover {
+  fill:#F60AE0;
+  background: white;
+}
+
+
+.icon-17 {
+  color: #2691d9;
+  fill: #2691d9;
+}
+.icon-17:hover {
+  fill: white;
+  background: #2691d9;
+}
+
+.icon-23 {
+  color: #9126d9;
+  fill: orange  ;
+}
+.icon-23:hover {
+  fill:orange;
+  background: #E5E7E9;
+}
+
+
+.icon-26 {
+  color: #d926b5;
+  fill: #1DA4ED ;
+}
+.icon-26:hover {
+  fill:white;
+  background: #1DA4ED  ;
+}
+
+.icon-27 {
+  color: #d92691;
+  fill: #d92691;
+}
+.icon-27:hover {
+  background: #d92691;
+}
+
+.icon-28 {
+  color: #d9266e;
+  fill: #d9266e;
+}
+.icon-28:hover {
+  background: #d9266e;
+}
+
+.icon-29 {
+  color: #d9264a;
+  fill: #d9264a;
+}
+.icon-29:hover {
+  background: #d9264a;
+}
+
+.icon-30 {
+  color: #d92626;
+  fill: #d92626;
+}
+.icon-30:hover {
+  background: #d92626;
+}
+
+.icon-31 {
+  color: #d94a26;
+  fill: #d94a26;
+}
+.icon-31:hover {
+  background: #d94a26;
+}
+
+.icon-32 {
+  color: #d96e26;
+  fill: #d96e26;
+}
+.icon-32:hover {
+  background: #d96e26;
+}
