@@ -10,9 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
   <style>
   img {
     border-radius: 50%;
@@ -28,10 +26,10 @@
 
 
 
-<div class="col-md-4" style="padding-top:150px">
+<div class="col-md-4" >
 
 
-        <div align="center" >
+        <div align="center" style="position:relative; top:200px ">
     <img src="me.JPG" alt="Avatar" style="width:200px">
     </div>
 
@@ -39,9 +37,9 @@
   </div>
 
 
-<div class="col-md-4" style="padding-top:150px">
+<div class="col-md-4">
 
-      <div  >
+      <div  style="position:relative; top:180px ">
         <i style="font-size: 30px; color:#CACFD2;">hey , i am</i>
     <h1     style="font-family:Palatino Linotype ;font-size: 65px;color: black;">ROHAN </h1>
       <h1 style="font-family:Palatino Linotype ;font-size: 65px;color: black;  top:100px">KEDAMBADI</h1>
@@ -50,7 +48,7 @@
   </div>
 
 
-      <div class="col-md-4"  >
+      <div class="col-md-4" >
 
           <div  style="position:relative;" >
           <ul class="soc"  >
@@ -95,8 +93,10 @@
 
 <div class="row" >
 
-<div class="col-md-12" style="padding-top:100px">
-  <div align="center" >
+<div class="col-md-12">
+  <div align="center" style="position: relative;
+          top: 290px;
+            ">
             <i style="font-size: 30px; color:#CACFD2;">I am a</i>
     <h3 style="font-family:Comic Sans MS ;font-size: 40px;color:#38FB0D; ">
     <i>>>></i>'Programmer'<br>
@@ -109,30 +109,35 @@
 
 
 </div>
-<div class="row">
-  <div class="col-md-12" style="padding-top:30px;font-size:30px" >
-<b>words that keep me runnin..!</b><br><br>
-<blockquote >
-  <p>Talent you have naturally, Skill is only developed by hours and hours of beating on your crap.</p>
-  <footer>Will Smith</footer>
-
-</blockquote>
-
-  </div>
-</div>
 
 
-<div class="row">
-  <div class="col-md-12" style="padding-top:100px" align="center">
+  <!--
+    <div style="position: absolute;
+            top: 530px;
+            left : 387px;
+            background:white;
+            width: 1200px;
+              ">
+
+      <h3 style="font-family:Comic Sans MS ;font-size: 40px;color:#38FB0D; ">
+      'Programmer'<br>
+      'Programmer'
+</h3>
+    </div>
 
 
-    <img src="rsz_underconst.jpg" alt="underconstruction" style="width:300px;border-radius: 0%;">
-
-  </div>
-</div>
-
-
-
+     New icon thanks to Justin Paul Veiga
+    <ul class="soc">
+      <li><a class="icon-4 codepen" href="#" title="CodePen" preserveAspectRatio="xMidYMid meet">
+          <svg viewbox="0 0 512 512">
+            <path d="M427 201.9c-0.6-4.2-2.9-8-6.4-10.3L264.2 87.3c-4.9-3.3-11.4-3.3-16.3 0L91.4 191.6c-4 2.7-6.5 7.4-6.5 12.2v104.3c0 4.8 2.5 9.6 6.5 12.2l156.4 104.3c4.9 3.3 11.4 3.3 16.3 0L420.6 320.4c4-2.6 6.6-7.4 6.6-12.2V203.9C427.1 203.2 427.1 202.6 427 201.9 427 201.7 427.1 202.6 427 201.9zM270.7 127.1l115.2 76.8 -51.5 34.4 -63.8-42.7V127.1zM241.3 127.1v68.6l-63.8 42.7 -51.5-34.4L241.3 127.1zM114.3 231.4l36.8 24.6 -36.8 24.6V231.4zM241.3 384.9L126.1 308.1l51.5-34.4 63.8 42.6V384.9zM256 290.8l-52-34.8 52-34.8 52 34.8L256 290.8zM270.7 384.9V316.3l63.8-42.6 51.5 34.4L270.7 384.9zM397.7 280.6l-36.8-24.6 36.8-24.6V280.6z"></path>
+          </svg></a></li>
+          <li><a class="icon-8 email" href="#" title="Email" preserveAspectRatio="xMidYMid meet">
+              <svg viewbox="0 0 512 512">
+                <path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"></path>
+              </svg></a></li>
+    </ul>
+    :-->
 
 
   </div>
